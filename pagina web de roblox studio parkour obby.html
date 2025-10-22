@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creación de Juegos Educativos en Roblox Studio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0072ff, #00c6ff);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00c6ff;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h2 {
+      color: #0072ff;
+      border-left: 5px solid #00c6ff;
+      padding-left: 10px;
+    }
+
+    p {
+      line-height: 1.8;
+      text-align: justify;
+      font-size: 16px;
+    }
+
+    ul {
+      margin-left: 30px;
+      line-height: 1.8;
+    }
+
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .galeria img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      background: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Creación de Juegos Educativos en Roblox Studio</h1>
+    <p>Un proyecto que une diversión, aprendizaje y creatividad</p>
+  </header>
+
+  <nav>
+    <a href="#quees">¿Qué es Roblox?</a>
+    <a href="#porque">¿Por qué crear juegos educativos?</a>
+    <a href="#como">Cómo crear un juego en Roblox Studio</a>
+    <a href="#galeria">Galería</a>
+  </nav>
+
+  <main>
+    <section id="quees">
+      <h2>¿Qué es Roblox?</h2>
+      <p>
+        Roblox es una plataforma en línea que permite a los usuarios crear, compartir y jugar millones de juegos diseñados por la comunidad. 
+        Utiliza su propio motor de desarrollo llamado <strong>Roblox Studio</strong>, el cual brinda a los creadores la posibilidad de diseñar entornos en 3D, programar funciones con el lenguaje <strong>Lua</strong> y publicar sus experiencias para que otros jugadores las disfruten.
+      </p>
+      <p>
+        Roblox no es solo un juego, sino también una herramienta educativa poderosa, ya que combina el aprendizaje de la programación, el diseño 3D, la lógica y la creatividad. 
+        Por ello, cada vez más docentes y estudiantes lo utilizan para aprender conceptos tecnológicos de una forma práctica y divertida.
+      </p>
+    </section>
+
+    <section id="porque">
+      <h2>¿Por qué crear juegos educativos en Roblox?</h2>
+      <p>
+        Crear un juego educativo en Roblox es una excelente manera de motivar a los jóvenes a aprender mientras se divierten. 
+        Al desarrollar un juego con contenido educativo, los estudiantes pueden aplicar conocimientos de distintas áreas como informática, matemáticas, arte digital y trabajo en equipo.
+      </p>
+      <ul>
+        <li><strong>Aprendizaje interactivo:</strong> Los jugadores aprenden a través de la experiencia y la resolución de problemas.</li>
+        <li><strong>Desarrollo de habilidades técnicas:</strong> Enseña lógica, programación, diseño y animación.</li>
+        <li><strong>Trabajo colaborativo:</strong> Roblox permite crear en grupo, fomentando la cooperación y la comunicación.</li>
+        <li><strong>Motivación:</strong> Los estudiantes se sienten inspirados al ver sus ideas cobrar vida dentro de un mundo virtual.</li>
+      </ul>
+    </section>
+
+    <section id="como">
+      <h2>Cómo crear un juego en Roblox Studio</h2>
+      <p>
+        Para comenzar a crear un juego en Roblox, es importante conocer los pasos básicos y tener en cuenta ciertos aspectos fundamentales. 
+        A continuación se explica el proceso general:
+      </p>
+      <ul>
+        <li><strong>1. Descargar Roblox Studio:</strong> Es el programa oficial de creación de Roblox. Se descarga desde la página oficial <a href="https://www.roblox.com/create" target="_blank">roblox.com/create</a>.</li>
+        <li><strong>2. Iniciar sesión:</strong> Usa tu cuenta de Roblox para acceder a todas las herramientas de desarrollo.</li>
+        <li><strong>3. Elegir una plantilla:</strong> Roblox Studio ofrece diferentes tipos de mapas como parkour, carreras, simuladores o aventuras.</li>
+        <li><strong>4. Diseñar el entorno:</strong> Coloca objetos, terrenos, luces y estructuras para dar forma a tu mundo virtual.</li>
+        <li><strong>5. Programar con Lua:</strong> Usa el lenguaje de scripting de Roblox para agregar lógica, movimiento, preguntas o sistemas de puntuación.</li>
+        <li><strong>6. Probar y optimizar:</strong> Ejecuta el juego, corrige errores y ajusta la jugabilidad.</li>
+        <li><strong>7. Publicar el juego:</strong> Una vez terminado, puedes compartirlo con otros jugadores en Roblox.</li>
+      </ul>
+      <p>
+        En el caso de un juego educativo, se pueden incluir desafíos o preguntas que los jugadores deben resolver para avanzar, fomentando el pensamiento crítico y la curiosidad por aprender.
+      </p>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería del Proyecto</h2>
+      <p>A continuación se muestran algunas imágenes relacionadas con el proceso de creación del juego en Roblox Studio:</p>
+      <div class="galeria">
+        <img src="https://logowik.com/content/uploads/images/roblox-studio3498.jpg" alt="logo de roblox estudio1">
+        <img src="https://prod.docsiteassets.roblox.com/assets/engine-comparisons/Roblox-Studio-Layout.png" alt="Diseño en Roblox Studio">
+        <img src="https://prod.docsiteassets.roblox.com/assets/art/avatar/DCC-Thumbnail.png" alt="Entorno de trabajo en Roblox Studio">
+        <!-- Puedes agregar tus propias imágenes -->
+        <!-- <img src="imagenes/mi_juego_roblox.png" alt="Mi juego en Roblox"> -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Creado por JEAN CARLOS LOPEZ IBARRA  3BGU INFORMATICA | Proyecto Educativo Roblox Studio</p>
+  </footer>
+</body>
+</html>
